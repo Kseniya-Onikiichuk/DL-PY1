@@ -6,7 +6,6 @@ max_number = list_numbers[max_index]
 
 # Находим индекс последнего максимального элемента, итерируя входной список
 for i, current_number in enumerate(list_numbers):
-    max_number = list_numbers[max_index]
     if current_number >= max_number:
         max_index = i
         max_number = list_numbers[max_index]
